@@ -1,11 +1,11 @@
-Backend is using AWS lambda function in NodeJS environment.
+<b>Backend is using AWS lambda function in NodeJS environment.</b>
 To deploy backend, serverless framework is used.
 
-Note: Following installation is needed:
+<i>Note: Following installation is needed:</i>
 1. Node and awscli from installer
 2. serverless framework [npm install -g serverless]
 
-Steps to deploy email backend service:
+<h3>Steps to deploy email backend service:</h3>
 
 1. Clone the repository:
 git clone https://github.com/swatifursule/email-lambda-service.git
