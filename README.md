@@ -1,4 +1,4 @@
-<b>Backend is using AWS lambda function in NodeJS environment.</b>
+<b>Backend is using AWS lambda service in NodeJS environment.</b>
 To deploy backend, serverless framework is used.
 
 <i>Note: Following installation is needed:</i>
@@ -22,28 +22,28 @@ sls deploy -v
 
 5. Use serviceEndPoint as in output of above command: 
 
-ServiceEndpoint: https://4puqpns0ze.execute-api.ap-southeast-2.amazonaws.com/dev
+  ServiceEndpoint: https://4puqpns0ze.execute-api.ap-southeast-2.amazonaws.com/dev
 
-To test the service, use curl command with above api and below body content.
+6. To test the service, use curl command with above api and below body content.
 
-{
-  "bccEmailAddresses": [
-    "EMAILID"
-  
-  ],
-  "ccEmailAddresses": [
-    "EMAILID"
-  ],
-  "toEmailAddresses": [
-    "EMAILID"
-  
-  ],
-  "bodyData": "My Testing with email service using lambda",
-  "subjectdata": "Testing emails servive serverless lambda",
-  "sourceEmail": "EMAILID"
-  ,
-  "replyToAddresses": [
-    "EMAILID"
-  
-  ]
-}
+  {
+    "bccEmailAddresses": [
+      "EMAILID"
+
+    ],
+    "ccEmailAddresses": [
+      "EMAILID"
+    ],
+    "toEmailAddresses": [
+      "EMAILID"
+
+    ],
+    "bodyData": "My Testing with email service using lambda",
+    "subjectdata": "Testing emails servive serverless lambda",
+    "sourceEmail": "EMAILID"
+    ,
+    "replyToAddresses": [
+      "EMAILID"
+
+    ]
+  }
