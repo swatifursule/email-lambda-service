@@ -26,24 +26,21 @@ sls deploy -v
 
 6. To test the service, use curl command with above api and below body content.
 
-  {
-    "bccEmailAddresses": [
-      "EMAILID"
-
-    ],
-    "ccEmailAddresses": [
-      "EMAILID"
-    ],
-    "toEmailAddresses": [
-      "EMAILID"
-
-    ],
-    "bodyData": "My Testing with email service using lambda",
-    "subjectdata": "Testing emails servive serverless lambda",
-    "sourceEmail": "EMAILID"
-    ,
-    "replyToAddresses": [
-      "EMAILID"
-
-    ]
-  }
+      {
+      "bccEmailAddresses": [
+                          "EMAILID"
+      ],
+      "ccEmailAddresses": [
+                          "EMAILID"
+      ],
+      "toEmailAddresses": [
+                          "EMAILID"
+      ],
+      "bodyData": "My Testing with email service using lambda",
+      "subjectdata": "Testing emails servive serverless lambda",
+      "sourceEmail": "EMAILID"
+      ,
+      "replyToAddresses": [
+                          "EMAILID"
+      ]
+      }
