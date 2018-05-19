@@ -10,10 +10,10 @@ To deploy backend, serverless framework is used.
 1. Clone the repository:
 git clone https://github.com/swatifursule/email-lambda-service.git
 
-2. Configre AWS
+2. Configre AWS:
 aws configure
 
-3. Inside serverless.yml, change deploymentBucket, with the existing bucket in your AWS account.
+3. Inside serverless.yml, change deploymentBucket, with the existing bucket in your AWS account:
   deploymentBucket: < BUCKET-NAME>
 
 4. Deploy the application using below command: 
