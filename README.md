@@ -22,7 +22,7 @@ sls deploy -v
 
 5. Use serviceEndPoint as in output of above command: 
 
-  ServiceEndpoint: https://4puqpns0ze.execute-api.ap-southeast-2.amazonaws.com/dev
+  ServiceEndpoint: https://xxxxxxxxxx.execute-api.ap-southeast-2.amazonaws.com/dev
 
 6. To test the service, use curl command with above api and below body content.
 
