@@ -37,7 +37,7 @@ sls deploy -v
                           "EMAILID"
       ],
       "bodyData": "My Testing with email service using lambda",
-      "subjectdata": "Testing emails servive serverless lambda",
+      "bodySubject": "Testing emails servive serverless lambda",
       "sourceEmail": "EMAILID"
       ,
       "replyToAddresses": [
