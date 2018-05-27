@@ -40,11 +40,11 @@ module.exports.sendMail = (event, context, callback) =>
     });*/
 
 
-var apiBaseUrl = 'https://api.mailgun.net/v3/sandboxa734e1fcac97471580d527cae777e9d2.mailgun.org';
+var apiBaseUrl = 'https://api.mailgun.net/v3/sandboxabcdefghijklmnopqrstuvwxyz.mailgun.org';
 
 var apiBaseUrl2= 'https://api.sendgrid.com/v3/mail/send';
-var apiKey     = 'key-de8cac6342166fb86adcd20d4afeac5f';
-var apiKey2    = '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';
+var apiKey     = 'key-XXXXXXXXXX';
+var apiKey2    = 'SG.XXXXXXXXXXXXXX';
 var from       = 'swatifursule@gmail.com';
 var to         =  toEmailAddresses;
 var cc         =  ccEmailAddresses;
